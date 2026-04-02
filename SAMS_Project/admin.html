@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Admin Approval Panel</h1>
+        <p>Manage attendance edit requests</p>
+
+        <div class="request-box">
+          <p><strong>Request ID:</strong> AR-101</p>
+          <p><strong>Teacher:</strong> R. Das</p>
+          <p><strong>Reason:</strong> Wrong attendance marked for student.</p>
+          <button onclick="approveRequest()">Approve</button>
+          <button onclick="rejectRequest()">Reject</button>
+        </div>
+
+        <div class="request-box">
+          <p><strong>Request ID:</strong> AR-102</p>
+          <p><strong>Teacher:</strong> A. Mishra</p>
+          <p><strong>Reason:</strong> Student was present but marked absent.</p>
+          <button onclick="approveRequest()">Approve</button>
+          <button onclick="rejectRequest()">Reject</button>
+        </div>
+
+        <button onclick="goHome()">Logout</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+Student Attendance Management System (SAMS)
+
+Project Type:
+Web-based functional prototype
+
+Prerequisites:
+1. Any modern web browser like Google Chrome or Microsoft Edge
+2. No external installation required for basic execution
+
+Steps to Run:
+1. Open the SAMS_Project folder
+2. Double-click index.html
+3. The login page will open in the browser
+4. Enter username and password
+5. Select Student, Teacher, or Admin role
+6. Click Login to navigate to the respective module
+
+Modules Implemented:
+- Authentication (simulated)
+- Student dashboard
+- Teacher attendance marking
+- Admin approval system
+
+Note:
+Backend and database interactions are simulated for demonstration purposes.

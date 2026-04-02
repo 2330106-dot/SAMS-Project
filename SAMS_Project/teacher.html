@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher Attendance Panel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Teacher Attendance Panel</h1>
+        <p>Mark attendance for the class</p>
+
+        <div class="attendance-row">
+          <span>Rishin Mallick (2330106)</span>
+          <label><input type="checkbox" checked /> Present</label>
+        </div>
+
+        <div class="attendance-row">
+          <span>Rishabh Rai (2330105)</span>
+          <label><input type="checkbox" /> Present</label>
+        </div>
+
+        <div class="attendance-row">
+          <span>Shashank Pitaliya (2330189)</span>
+          <label><input type="checkbox" checked /> Present</label>
+        </div>
+
+        <div class="attendance-row">
+          <span>Sunandan (2330198)</span>
+          <label><input type="checkbox" checked /> Present</label>
+        </div>
+
+        <button onclick="saveAttendance()">Submit Attendance</button>
+        <button onclick="goHome()">Logout</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

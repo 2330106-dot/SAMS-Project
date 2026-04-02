@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Student Dashboard</h1>
+        <p>Welcome, Rishin</p>
+
+        <div class="info-box">
+          <h3>Overall Attendance</h3>
+          <p id="attendanceValue"></p>
+        </div>
+
+        <div class="info-box">
+          <h3>Subject-wise Attendance</h3>
+          <p>Mathematics - 88%</p>
+          <p>DBMS - 82%</p>
+          <p>Operating Systems - 86%</p>
+        </div>
+
+        <div class="info-box">
+          <h3>Notifications</h3>
+          <p>Low attendance warning will appear here.</p>
+        </div>
+
+        <button onclick="goHome()">Logout</button>
+      </div>
+    </div>
+
+    <script>
+      let totalClasses = 50;
+      let attendedClasses = 43;
+      let percentage = (attendedClasses / totalClasses) * 100;
+      document.getElementById("attendanceValue").innerText =
+        percentage.toFixed(2) + "%";
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
